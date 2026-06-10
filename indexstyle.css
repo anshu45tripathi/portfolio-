@@ -1,0 +1,50 @@
+h1{
+    color: #ac4aa6 rgb(255, 47, 130);
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    color: #e24abc;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 250px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #186d31;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+} 
+
+input[type="submit"]{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+body {
+    background-color: #BBBDBC;
+     background-image: url(" https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBvcnRmb2xpb3xlbnwwfHwwfHx8MA%3D%3D")
+
+}
+#user {
+    background-color: #F2F0EF;
+    color: #e6e3e5;
+}
+#pass {
+    background-color: #F2F0EF;
+    color: #e6e3e5;
+}
